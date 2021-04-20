@@ -1,0 +1,49 @@
+.form-input-group {
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  display: block;
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: 1rem;
+  padding-right: 3rem;
+  line-height: 2rem;
+  border-bottom: 1px solid;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: inherit;
+  }
+
+  &::-webkit-input-placeholder {
+    color: inherit;
+  }
+
+  &::-ms-input-placeholder {
+    color: inherit;
+  }
+}
+
+.form-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: var(--fz-md);
+  width: 2rem;
+  height: 2rem;
+  color: inherit;
+  border: none;
+  background: none;
+  padding: 8px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}

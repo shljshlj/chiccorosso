@@ -1,0 +1,74 @@
+:root {
+  --font-sans: 'Roboto', sans-serif;
+
+  --color-dark: #171310;
+  --color-light: #fff;
+  --color-gold: #ab976e;
+  --color-red: #e41b13;
+
+  --fz-xs: 12px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  // --fz-lg: 19px;
+  --fz-lg: 24px;
+  --fz-heading: 32px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1400px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border: 1px solid;
+  font-size: var(--fz-sm);
+}
