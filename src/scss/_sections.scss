@@ -244,9 +244,24 @@ section .container {
     margin-bottom: 1rem;
   }
 
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+
+    @media (min-width: 480px) {
+      grid-gap: 2rem;
+    }
+    
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
   .brand-logo {
-    width: calc(100% / 6 - 3%);
-    height: 100%;
+    // height: 50px;
+    // width: calc(100% / 6 - 3%);
+    // height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
