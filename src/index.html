@@ -9,11 +9,11 @@
 </head>
 
 <body>
+  <div class="top-banner">
+    <span>Versandkosten CHF 5.– pro Bestellung</span>
+  </div>
   <header class="header">
     <h1 aria-hidden="true" class="visually-hidden">Chiccorosso</h1>
-    <div class="header-banner">
-      <span>VERSANDKOSTEN CHF 5.– PRO BESTELLUNG</span>
-    </div>
     <div class="container">
       <div class="header-grid">
         <div class="header-logo logo">
@@ -23,12 +23,55 @@
             </div>
           </a>
         </div>
-        <div class="header-upper">
+        <div class="header-grid-inner">
+          <button class="header-mobile-button">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px" y="0px" width="24" height="24" viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;"
+              xml:space="preserve">
+              <g>
+                <path fill="currentColor"
+                  d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" />
+                <path fill="currentColor"
+                  d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" />
+                <path fill="currentColor"
+                  d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" />
+            </svg>
+            <span>Menü</span>
+          </button>
+          <div class="header-search">
+            <button class="header-mobile-button header-mobile-button__search">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"
+                xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+                <g>
+                  <path fill="currentColor"
+                    d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" />
+                </g>
+              </svg>
+            </button>
+            <form class="header-search__form">
+              <div class="form-input-group search">
+                <label for="search-product" class="visually-hidden">Suche ein Produkt</label>
+                <input type="search" id="search-product" placeholder="Suche ein Produkt" aria-label="Suche ein Produkt"
+                  class="input-field">
+                <button class="form-button">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
+                    <g>
+                      <path fill="currentColor"
+                        d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
           <nav class="shop-nav">
             <ul class="shop-nav-list">
               <li class="shop-nav-item">
                 <a href="#">
-                  <div class="shop-icon-circle">
+                  <div class="shop-icon-outer">
                     <div class="shop-icon-inner">
                       <?xml version="1.0" encoding="iso-8859-1"?>
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +89,7 @@
               </li>
               <li class="shop-nav-item">
                 <a href="#">
-                  <div class="shop-icon-circle">
+                  <div class="shop-icon-outer">
                     <div class="shop-icon-inner">
                       <?xml version="1.0" encoding="iso-8859-1"?>
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +112,7 @@
               </li>
               <li class="shop-nav-item">
                 <a href="#">
-                  <div class="shop-icon-circle">
+                  <div class="shop-icon-outer">
                     <div class="shop-icon-inner">
                       <?xml version="1.0" encoding="iso-8859-1"?>
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -87,46 +130,30 @@
               </li>
             </ul>
           </nav>
-        </div>
-        <div class="header-bottom">
-          <form>
-            <div class="form-input-group search">
-              <label for="search-product" class="visually-hidden">Suche ein Produkt</label>
-              <input type="search" id="search-product" placeholder="Suche ein Produkt" aria-label="Suche ein Produkt"
-                class="input-field">
-              <button class="form-button">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
-                  <g>
-                    <path fill="currentColor"
-                      d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z" />
-                  </g>
-                </svg>
-              </button>
-            </div>
-          </form>
-          <nav class="main-nav">
-            <ul class="main-nav-list">
-              <li class="main-nav-item">
-                <a href="#">Kaffee</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="#">Maschinen</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="#">Zubehör</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="#">Spezialitäten</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="#">Neuheiten</a>
-              </li>
-              <li class="main-nav-item">
-                <a href="#">Kontakt</a>
-              </li>
-            </ul>
-          </nav>
+          <div class="header-main-nav">
+            <nav class="main-nav">
+              <ul class="main-nav-list">
+                <li class="main-nav-item">
+                  <a href="#">Kaffee</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="#">Maschinen</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="#">Zubehör</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="#">Spezialitäten</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="#">Neuheiten</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="#">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
@@ -260,7 +287,7 @@
           <span class="subheading">Dies ist Platzhaltertext
             Kaffeemarken</span>
         </div>
-        <div class="brands-row">
+        <div class="brands-grid">
           <div class="brand-logo">
             <img src="./assets/images/brands/brand-1.png" alt="Brand 1">
           </div>
@@ -279,8 +306,6 @@
           <div class="brand-logo">
             <img src="./assets/images/brands/brand-6.png" alt="Brand 6">
           </div>
-        </div>
-        <div class="brands-row">
           <div class="brand-logo">
             <img src="./assets/images/brands/brand-7.png" alt="Brand 7">
           </div>
@@ -333,22 +358,26 @@
         <div class="footer-upper-flex">
 
           <!-- Contact -->
-          <div class="contact">
-            <div class="logo">
-              <img src="./assets/images/chiccorosso_logo.png" alt="">
-            </div>
-            <div class="contact-info">
-              <div><a href="mailto:mail@chiccorosso.ch">mail@chiccorosso.ch</a></div>
-              <div>+41 79 552 74 54</div>
-            </div>
-            <div class="opening_hours">
-              <div>Mo-Fr, 08:00 – 20:00 Uhr</div>
-              <div>Sa, 08:00 – 12:00 Uhr</div>
+          <div class="footer-subsection contact">
+            <div class="conact-inner">
+              <a href="/">
+                <div class="logo">
+                  <img src="./assets/images/chiccorosso_logo.png" alt="">
+                </div>
+              </a>
+              <div class="contact-info">
+                <div><a href="mailto:mail@chiccorosso.ch">mail@chiccorosso.ch</a></div>
+                <div>+41 79 552 74 54</div>
+              </div>
+              <div class="opening_hours">
+                <div>Mo-Fr, 08:00 – 20:00 Uhr</div>
+                <div>Sa, 08:00 – 12:00 Uhr</div>
+              </div>
             </div>
           </div>
 
           <!-- Brands -->
-          <div class="footer-brands">
+          <div class="footer-subsection footer-brands">
             <h3 class="footer-heading">Marken</h3>
             <ul class="footer-list">
               <li class="footer-item"><a href="#">Caffè Tostini</a></li>
@@ -366,7 +395,7 @@
           </div>
 
           <!-- Links -->
-          <div class="footer-list footer-links">
+          <div class="footer-subsection footer-links">
             <h3 class="footer-heading">Links</h3>
             <ul class="footer-list">
               <li class="footer-item"><a href="#">Maschinen</a></li>
@@ -379,7 +408,7 @@
           </div>
 
           <!-- Social Media -->
-          <div class="social">
+          <div class="footer-subsection social">
             <h3 class="footer-heading">Folgen Sie uns</h3>
             <ul class="social-list">
               <li class="social-item">
@@ -411,7 +440,7 @@
           </div>
 
           <!-- Payment -->
-          <div class="payment">
+          <div class="footer-subsection payment">
             <h3 class="footer-heading">Zahlungsmöglichkeiten</h3>
             <div class="payment-options">
               <a href="#">

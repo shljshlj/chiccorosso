@@ -3,7 +3,9 @@
 
   --color-dark: #171310;
   --color-light: #fff;
-  --color-gold: #ab976e;
+  --color-gold: #7f7156;
+  --color-gold-light: #c1ac82;
+  // --color-gold-light: #ab976e;
   --color-red: #e41b13;
 
   --fz-xs: 12px;
@@ -45,6 +47,7 @@ a {
 
 button {
   background: none;
+  border: none;
   cursor: pointer;
 }
 
@@ -62,8 +65,9 @@ button {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   max-width: 1400px;
+  overflow: hidden;
 }
 
 .button {
