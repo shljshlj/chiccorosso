@@ -9,7 +9,7 @@
   "scripts": {
     "start": "NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "NODE_ENV=production webpack --config config/webpack.prod.js",
-    "compile:sass": "sass src/scss/main.scss style.css"
+    "compile:sass": "sass src/scss/main.scss style-desktop.css"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
