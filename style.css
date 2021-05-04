@@ -475,9 +475,9 @@ section .container {
 .assortment-grid_column {
   display: flex;
   flex-direction: column;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1), inset 0px 0px 0px 3px white, inset 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
-  padding: 2rem 1.5rem;
   align-items: center;
+  padding: 2rem 1.5rem;
+  border: 4px double rgba(255, 255, 255, 0.1);
 }
 .assortment-grid_column .button {
   width: 100%;
